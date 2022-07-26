@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-buffer { margin-top: 30px;}
+
+.bot-buffer { margin-bottom: 200px;}
+
+.proj1{
+  background: url(/public/thiccproj.jpg) left top no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.proj2{
+  background: url(/public/realtime.jpg) left top no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.proj3{
+  background: url(/public/JATE.jpg) left top no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.proj4{
+  background: url(/public/notetaker.jpg) center top no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.proj5 {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,148,1) 0%, rgba(0,212,255,1) 65%);
+}
+
+.proj6{
+  background: rgb(66,188,29);
+  background: linear-gradient(90deg, rgba(66,188,29,1) 0%, rgba(0,255,25,1) 39%, rgba(255,255,255,1) 100%);
+}
+
+.proj7{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,117,1) 54%, rgba(246,4,33,1) 100%);
+}
+
+body {
+  background-image: url("https://assets-global.website-files.com/5e39e095596498a8b9624af1/6279aad9a4206d4a46dcf770_WFU-thumbnail%20(CTA%20alert%20banner).jpg");
+}
+
+.big-text {
+  font-weight: bolder;
+}
+
+header {
+  background-image: url("https://img.freepik.com/free-vector/black-banner-with-yellow-geometric-shapes_1017-32327.jpg");
 }
