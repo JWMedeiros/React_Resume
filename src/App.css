@@ -52,3 +52,11 @@ body {
 header {
   background-image: url("https://img.freepik.com/free-vector/black-banner-with-yellow-geometric-shapes_1017-32327.jpg");
 }
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
