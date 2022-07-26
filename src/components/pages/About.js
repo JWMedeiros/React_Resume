@@ -8,7 +8,7 @@ export default function About() {
         <img
           className='d-block mx-auto'
           alt="My face"
-          src="/me.jpg"
+          src={require('../../images/me.jpg')}
           width="200px"
         />
       </div>
