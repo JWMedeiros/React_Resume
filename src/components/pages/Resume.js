@@ -3,9 +3,9 @@ import React from 'react';
 export default function Resume() {
   return (
     <div className='container bg-light top-buffer bot-buffer'>
-      <h3 className='text-center'>Link to the full Resume here:
+      <h2 className='text-center'>Link to the full Resume here:
         <a className='d-block mx-auto' href="https://docs.google.com/document/d/19BM8WWh1O7qkJiDLkB7A3khx609vFFe4ceRSWn7gU7U/edit">Click to View!</a>
-      </h3>
+      </h2>
       <h4>Skills and Technologies: </h4>
       <ul>
         <li>Javascript</li>

@@ -41,7 +41,12 @@ export default function Contact() {
 
   return (
     <div className='container bg-light top-buffer'>
-      <h3 className='text-center top-buffer'>Contact Page</h3>
+      <h2 className='text-center top-buffer'>Contact Info</h2>
+      <h4 className='text-center bot-buffer'>If you would like to contact me, please email me at:<a href='mailto:jon0908776@gmail.com'>jon0908776@gmail.com</a> 
+      or by phone at 905-467-5702. <br/>
+      You can also send me a LinkedIn connection request using the footer at the bottom!</h4>
+
+      {/* Contact Form if needed
       <form>
         <div className="form-group">
           <label for="exampleFormControlInput1"></label>
@@ -61,6 +66,7 @@ export default function Contact() {
           <div className='col-sm-4'></div>
         </div>
       </form>
+      */}
     </div>
   );
 }

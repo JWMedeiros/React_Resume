@@ -10,7 +10,7 @@ export default function Footer() {
             justifyContent="between"
             alignItems="center"
             className="mx-auto py-4 flex-wrap"
-            style={{ width: '80%' }}
+            style={{ width: '90%' }}
           >
             <CDBBox display="flex" alignItems="center">
               <img
