@@ -28,10 +28,10 @@ export default function Portfolio() {
               <img src={require('../../images/explosive2.jpg')} alt="Chatbox"/>
             </figure>
 
-            <a href='https://github.com/JWMedeiros/Stay-Thicc.com'>
+            <a href='https://github.com/RichardZhang01/explosive-tic-tac-toe'>
               <button>Github</button>
             </a>
-            <a href='https://keep-thicc.herokuapp.com/'>
+            <a href='https://explosive-tic-tac-toe.herokuapp.com/'>
               <button className='top-buffer'>Deployed Application</button>
             </a>
 
