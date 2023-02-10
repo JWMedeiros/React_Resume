@@ -55,50 +55,6 @@ export default function Portfolio() {
           <div class="card-front">
             <figure>
               <div class="img-bg"></div>
-              <img src={require('../../images/thiccproj.jpg')} alt="Explosive Tic-Tac-Toe"/>
-              <figcaption>Stay-Thicc.com</figcaption>
-            </figure>
-
-            <h3>Technologies:</h3>
-            <p>ExpressJS + NodeJS</p>
-            <p>MySQL and Sequelize</p>
-            <p>Handlebars + Mustache</p>
-            <p>SessionJS, ESlint, .env</p>
-          </div>
-
-          <div class="card-back">
-            <figure>
-              <div class="img-bg"></div>
-              <img src={require('../../images/thiccproj2.jpg')} alt="Stuff"/>
-            </figure>
-
-            <a href='https://github.com/JWMedeiros/Stay-Thicc.com'>
-              <button>Github</button>
-            </a>
-            <a href='https://keep-thicc.herokuapp.com/'>
-              <button className='top-buffer'>Deployed Application</button>
-            </a>
-
-            <div class="design-container">
-              <span class="design design--1"></span>
-              <span class="design design--2"></span>
-              <span class="design design--3"></span>
-              <span class="design design--4"></span>
-              <span class="design design--5"></span>
-              <span class="design design--6"></span>
-              <span class="design design--7"></span>
-              <span class="design design--8"></span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="flip-card-container">
-        <div class="flip-card">
-
-          <div class="card-front">
-            <figure>
-              <div class="img-bg"></div>
               <img src={require('../../images/realtime.jpg')} alt="Realtime-Stock Analysis"/>
               <figcaption>Realtime Stock Analysis</figcaption>
             </figure>

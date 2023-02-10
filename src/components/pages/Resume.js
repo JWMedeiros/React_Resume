@@ -8,6 +8,10 @@ export default function Resume() {
       </h2>
       <h4>Skills and Technologies: </h4>
       <ul>
+        <li>Unity Version 2021.3.18f1</li>
+        <li>NestJS</li>
+        <li>Typescript</li>
+        <li>TypeORM</li>
         <li>Javascript</li>
         <li>ReactJS</li>
         <li>NodeJS</li>
