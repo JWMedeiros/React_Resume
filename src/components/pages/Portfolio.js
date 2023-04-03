@@ -7,7 +7,90 @@ export default function Portfolio() {
       <div className="row justify-content-center">
       <div class="flip-card-container">
         <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src={require('../../images/BoostRocket.png')} alt="Boost Rocket"/>
+              <figcaption>Boost Rocket</figcaption>
+            </figure>
 
+            <h3>Technologies:</h3>
+            <p>Unity Version 2021.3.18f1</p>
+            <p>C#</p>
+            <p>OOP</p>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src={require('../../images/Boost2.png')} alt="Boost Rocket2"/>
+            </figure>
+
+            <a href='https://sharemygame.com/@jon0908776/boostrocket'>
+              <button>Play it here!</button>
+            </a>
+            <a href='https://github.com/JWMedeiros/Unity_Games/tree/master/BoostRocket/Assets'>
+              <button className='top-buffer'>Asset Library</button>
+            </a>
+
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="flip-card-container">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src={require('../../images/GunGame.png')} alt="Gun Game"/>
+              <figcaption>GunGame</figcaption>
+            </figure>
+
+            <h3>Technologies:</h3>
+            <p>Unity Version 2021.3.18f1</p>
+            <p>C#</p>
+            <p>OOP</p>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src={require('../../images/Gun2.jpg')} alt="GunGame2"/>
+            </figure>
+
+            <a href='https://sharemygame.com/@jon0908776/gungame-1-0'>
+              <button>Play it here!</button>
+            </a>
+            <a href='https://github.com/JWMedeiros/Unity_Games/tree/master/GunGame/Assets'>
+              <button className='top-buffer'>Asset Library</button>
+            </a>
+
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="flip-card-container">
+        <div class="flip-card">
           <div class="card-front">
             <figure>
               <div class="img-bg"></div>
