@@ -4,12 +4,13 @@ import { CDBFooter, CDBBox, CDBBtn, CDBIcon} from 'cdbreact';
 //Footer courtesy of Devwares
 export default function Footer() {
     return (
-        <CDBFooter className="shadow fixed-bottom bg-warning">
+        <CDBFooter className="shadow fixed-bottom foot">
           <CDBBox
             display="flex"
             justifyContent="between"
             alignItems="center"
-            className="mx-auto py-4 flex-wrap"
+            //py-2 changes the total footer size (height)
+            className="mx-auto py-2 flex-wrap"
             style={{ width: '90%' }}
           >
             <CDBBox display="flex" alignItems="center">
@@ -18,7 +19,7 @@ export default function Footer() {
                 src="https://www.publicdomainpictures.net/pictures/350000/t2/heart-rainbow-stripes.jpg"
                 width="40px"
               />
-              <span className="ml-4 h5 mb-0 font-weight-bold" >&nbsp;John Medeiros</span>
+              <span className="ml-4 mb-0" >&nbsp;John Medeiros</span>
             </CDBBox>
             <CDBBox>
               <small className="ml-2">Made with love, React, Bootstrap and lot of coffee.</small>

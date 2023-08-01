@@ -1,41 +1,29 @@
 import React from 'react';
 
 export default function Resume() {
+  const resumeURL = 'https://drive.google.com/file/d/10_TLufrOBl1XHMJ3bFgc3IPHun6EFREk/view?usp=sharing'; // URL of Resume
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = resumeURL;
+    link.target = '_blank';
+    link.rel="noreferrer";
+    link.download = 'John Medeiros Resume July 7 2023.pdf';
+    link.click();
+  };
+
   return (
-    <div className='container bg-light top-buffer bot-buffer'>
-      <h2 className='text-center'>Link to the full Resume here:
-        <a className='d-block mx-auto' href="https://docs.google.com/document/d/19BM8WWh1O7qkJiDLkB7A3khx609vFFe4ceRSWn7gU7U/edit">Click to View!</a>
-      </h2>
-      <h4>Skills and Technologies: </h4>
-      <ul>
-        <li>Unity Version 2021.3.18f1</li>
-        <li>NestJS</li>
-        <li>Typescript</li>
-        <li>TypeORM</li>
-        <li>Javascript</li>
-        <li>ReactJS</li>
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
-        <li>MongoDB and Mongoose</li>
-        <li>Mysql and Sequalize</li>
-        <li>Python</li>
-        <li>Bootstrap</li>
-        <li>Graph QL</li>
-        <li>TDD with Jest</li>
-        <li>JQuery</li>
-        <li>HTML5</li>
-        <li>CSS</li>
-        <li>PHP</li>
-        <li>C/C++</li>
-        <li>C#</li>
-        <li>Java</li>
-        <li>Postman</li>
-        <li>Docker and Docker Swarm</li>
-        <li>Kubernetes</li>
-        <li>Visual Studio</li>
-        <li>Agile Project Management</li>
-        <li>Linux Server</li>
-      </ul>
+    <div className='container top-buffer bot-buffer'>
+      {/* Download button */}
+      <div className="text-center">
+        <button className="btn btn-primary mt-3" onClick={handleDownload}>
+          Download PDF
+        </button>
+      </div>
+      {/* Embedded resume */}
+      <div className="resume-embed">
+        <iframe title = "My_resume" src="https://drive.google.com/file/d/10_TLufrOBl1XHMJ3bFgc3IPHun6EFREk/preview" width="800" height="1000" allow="autoplay"></iframe>
+      </div>
     </div>
   );
 }
