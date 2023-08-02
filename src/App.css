@@ -12,7 +12,7 @@
 
 .top-buffer { margin-top: 30px;}
 
-.bot-buffer { margin-bottom: 200px;}
+.bot-buffer { margin-bottom: 100px;}
 
 .container {
   display: flex;
@@ -64,3 +64,20 @@ input:valid {
   border: 2px solid black;
 }
 
+
+.container.about-container {
+  width: 60%;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  flex: 1;
+  margin-left: 20px;
+}
