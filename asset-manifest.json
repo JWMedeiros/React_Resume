@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Resume/static/css/main.40492d1d.css",
-    "main.js": "/React_Resume/static/js/main.cfaa32b8.js",
+    "main.js": "/React_Resume/static/js/main.bf700228.js",
     "static/media/fa-solid-900.svg": "/React_Resume/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/React_Resume/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/Gun2.jpg": "/React_Resume/static/media/Gun2.3ad4f26e455457b6e8c5.jpg",
@@ -44,10 +44,10 @@
     "static/media/phrases.png": "/React_Resume/static/media/phrases.9f6e77b307f496c68348.png",
     "index.html": "/React_Resume/index.html",
     "main.40492d1d.css.map": "/React_Resume/static/css/main.40492d1d.css.map",
-    "main.cfaa32b8.js.map": "/React_Resume/static/js/main.cfaa32b8.js.map"
+    "main.bf700228.js.map": "/React_Resume/static/js/main.bf700228.js.map"
   },
   "entrypoints": [
     "static/css/main.40492d1d.css",
-    "static/js/main.cfaa32b8.js"
+    "static/js/main.bf700228.js"
   ]
 }
